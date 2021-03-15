@@ -1,15 +1,43 @@
 
 h1, h2, h3, h4, h5, h6, h7{
-font-weight: normal;
+    font-weight: normal;
 }
+
+.cardTeam{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.cardSupervisor{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.cardCalculator{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+.cardKarma{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+@media all and (max-width: 1440px) and (min-width: 768px) {
+    .cardS{
+     margin-top:100px;
+    }
+  }
+
+  @media all and (max-width: 1440px) and (min-width: 768px) {
+    .cardC{
+     margin-top:100px;
+    }
+  }
+
+
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
-    padding: 10px 10px 10px 10px;
+    min-height: 193px;
+    padding: 5px 5px 5px 5px;
     background-color: white;
     margin-bottom: 20px;
+    margin-top: 20px;
     display: flex;
   }
   
@@ -19,4 +47,11 @@ font-weight: normal;
 body {
     background-color: hsl(0, 0%, 98%);
     font-family: 'Poppins', sans-serif;
+    font-size: 15px;
 }
+
+.indentifier{
+    background-color: rgba(0,0,0,0.2);
+    padding: 5px 5px 5px 5px;
+}
+
