@@ -16,19 +16,19 @@ h1, h2, h3, h4, h5, h6, h7{
 .cardKarma{
     border-top: 5px solid hsl(34, 97%, 64%);
 }
-@media all and (max-width: 2440px) and (min-width: 768px) {
+@media all and (max-width: 8440px) and (min-width: 768px) {
     .cardS{
      margin-top:120px;
     }
   }
 
-  @media all and (max-width: 2440px) and (min-width: 768px) {
+  @media all and (max-width: 8440px) and (min-width: 768px) {
     .cardC{
      margin-top:120px;
     }
   }
 
-  @media all and (max-width: 2440px) and (min-width: 768px) {
+  @media all and (max-width: 8440px) and (min-width: 768px) {
     .row{
         padding: 40px 40px 40px 40px;
     }
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6, h7{
     background-color: white;
     margin-bottom: 20px;
     margin-top: 20px;
-    display: flex;
+    display: inline-flex;
   }
   
 .card:hover {
